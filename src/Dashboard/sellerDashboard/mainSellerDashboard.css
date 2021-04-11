@@ -1,0 +1,113 @@
+*
+{
+ padding: 0 !important;
+ margin: 0 !important;
+}
+/* body{
+ height: 100%;
+ color: black;
+} */
+
+.mainContentSeller
+{
+ background:rgb(124, 124, 189);
+ display: grid;
+ justify-content: center;
+ /* height: auto; */
+ /* overflow: auto; */
+ /* overflow-x: hidden; */
+}
+.summarySeller
+{
+ 
+ height: 20vh;
+ width: 70vw;
+ background-color: white;
+ border-radius: 20px !important;
+ margin-top:10px !important;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin-bottom:10px !important ;
+ 
+}
+.summarySeller>div
+{
+ position: inherit;
+ text-align: center;
+}
+.summarySeller>div>h1
+{
+ font-weight: bold;
+}
+.summarySeller>div>p
+{
+ opacity: .5;
+}
+.myproducts
+{
+ top:150px;
+ margin-left:5vw !important;
+ text-align: center;
+ margin-top: 10vh !important;
+ margin-bottom: 5vh !important;
+}
+.myproducts>ul
+{
+ width: 60vw;
+ color: black;
+}
+.myproducts a:link
+{
+ color: black !important;
+}
+.myproducts>ul>a>li
+{
+   display: flex;
+ justify-content: space-around;
+ padding:20px !important;
+}
+.myproducts>ul>a>li>img
+{
+ height: 5vh;
+ width: 5vw;
+}
+
+.product>div
+{
+ display: flex;
+
+}
+.product>div>img
+{
+ height: 5vh;
+ width: 5vw;
+}
+.salesHeading
+{
+ position: relative;
+}
+.mainContentSeller a:link
+{
+  color: black;
+}
+/* //personal info part */
+.personalInfo
+{
+  background: white;
+  width: 70vw;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px !important;
+}
+.personalInfo>div>img
+{
+  height: 100px;
+  width: 100px;
+}
+#address
+{
+  text-align: center;
+}

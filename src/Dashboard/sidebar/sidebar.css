@@ -1,0 +1,57 @@
+body
+{
+ color: white; 
+ background-color: transparent;
+ height: auto ; 
+}
+.sidebar
+{
+  color:white;
+  position: sticky;
+ background-color: rgb(99, 97, 97);
+ height:100% !important;
+ display: grid;
+ justify-content: center;
+ text-align: center;
+}
+
+.thumbnailImage
+{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  height: 13vh;
+  width: 13vw;
+}
+.thumbnailMain
+{
+  border-style: none;
+  height: 40vh;
+}
+.options
+{
+  position: relative;
+  top:-650px
+}
+ul
+{
+  font-size: 15px;
+  
+}
+.options>ul>a>li
+{
+  color: white;
+  list-style: none;
+  margin-bottom: 20px ;
+  padding: 10px;
+  margin: 0 0 10px 0;
+}
+.options>ul>a>li>img
+{
+  height: 5vh;
+  width: 5vh;
+  margin-right:10px;
+}
+.options>a:link
+{
+  color:white;
+}

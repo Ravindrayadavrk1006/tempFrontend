@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react'
+import MainSellerDashboard from './Dashboard/sellerDashboard/MainSellerDashboard';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import AddProduct from './addProduct/AddProduct';
+import BuyerDashboard from './Dashboard/buyerDashboard/BuyerDashboard';
+import EducatorDashboard from './Dashboard/educatorDashboard/EducatorDashboard';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <MainSellerDashboard></MainSellerDashboard> */}
+    {/* <AddProduct></AddProduct> */}
+    <EducatorDashboard></EducatorDashboard>
     </div>
-  );
+  )
 }
-
 export default App;
